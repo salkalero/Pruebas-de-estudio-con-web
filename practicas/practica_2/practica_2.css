@@ -31,20 +31,20 @@
     list-style: none;
 }
 .aLi{
-    color:var(--textoEnlace);
-    margin:0 10px;
+    color:var (--textoEnlace);
+    margin:0 10 px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.10em;
+    font-size: 1.10 em;
 }
 
-@media (max-width:759px){
+@media (max-width:759 px){
     .ulHeader{
         flex-direction: column;
         position:absolute;
-        top:100px;
-        width:100%;
-        background-color: var(--fondo);
+        top:100 px;
+        width:100 %;
+        background-color: var (--fondo);
         align-items: center;
         overflow:hidden;
         right:100%;
