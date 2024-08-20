@@ -12,17 +12,17 @@
 .header{
     display:flex;
     justify-content:space-between;
-    padding:15px;
-    background-color:var(--fondo);
+    padding:15 px;
+    background-color: var (--fondo);
 }
 
 .logo,.burger{
-    width:100px;
-    height:100px;
+    width:100 px;
+    height:100 px;
 }
 
 .burger{
-    transform: scale(4,4);
+    transform: scale (4,4);
 }
 .ulHeader{
     display:flex;
@@ -38,7 +38,7 @@
     font-size: 1.10em;
 }
 
-@media(max-width:759px){
+@media (max-width:759px){
     .ulHeader{
         flex-direction: column;
         position:absolute;
