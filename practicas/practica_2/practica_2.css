@@ -12,17 +12,17 @@
 .header{
     display:flex;
     justify-content:space-between;
-    padding:15 px;
-    background-color: var (--fondo);
+    padding:15px;
+    background-color: var(--fondo);
 }
 
 .logo,.burger{
-    width:100 px;
-    height:100 px;
+    width:100px;
+    height:100px;
 }
 
 .burger{
-    transform: scale (4,4);
+    transform: scale(4,4);
 }
 .ulHeader{
     display:flex;
@@ -31,20 +31,20 @@
     list-style: none;
 }
 .aLi{
-    color:var (--textoEnlace);
-    margin:0 10 px;
+    color:var(--textoEnlace);
+    margin:0 10px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.10 em;
+    font-size: 1.10em;
 }
 
-@media (max-width:759 px){
+@media (max-width:759px){
     .ulHeader{
         flex-direction: column;
         position:absolute;
-        top:100 px;
-        width:100 %;
-        background-color: var (--fondo);
+        top:100px;
+        width:100%;
+        background-color: var(--fondo);
         align-items: center;
         overflow:hidden;
         right:100%;
